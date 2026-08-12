@@ -1,0 +1,16 @@
+{
+  "name": "mka-quantum-portfolio-max",
+  "version": "5.0.0",
+  "description": "Ultimate AI-powered portfolio for senior android developer",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy:github": "gh-pages -d .",
+    "deploy:netlify": "netlify deploy --prod"
+  },
+  "keywords": ["portfolio", "android", "developer", "kotlin"],
+  "author": "Moe Kyaw Aung",
+  "license": "MIT"
+}
