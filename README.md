@@ -37,3 +37,88 @@
 
 ## 📁 Project Structure
 
+
+```
+quantum-portfolio-max/
+├── index.html
+├── css/
+│   ├── style.css
+│   ├── components.css
+│   ├── animations.css
+│   ├── responsive.css
+│   └── themes.css
+├── js/
+│   ├── app.js
+│   ├── data.js
+│   ├── utilities.js
+│   └── chat.js
+├── assets/
+│   ├── images/
+│   ├── icons/
+│   └── fonts/
+├── api/
+│   └── contact.js
+└── config/
+```
+
+---
+
+## 🚀 Quick Start
+
+```bash
+# 1. Clone
+git clone https://github.com/Dev-moe-kyawaung/quantum-portfolio-max.git
+
+# 2. Navigate
+cd quantum-portfolio-max
+
+# 3. Open
+open index.html
+```
+
+---
+
+## 🌐 Deployment
+
+### GitHub Pages
+```bash
+git init
+git add .
+git commit -m "🎉 Initial release"
+git branch -M main
+git remote add origin https://github.com/Dev-moe-kyawaung/quantum-portfolio-max.git
+git push -u origin main
+```
+
+### Netlify
+```bash
+netlify deploy --prod
+```
+
+### Vercel
+```bash
+vercel --prod
+```
+
+---
+
+## 🎨 Customization
+
+### Change Colors
+```css
+:root {
+    --primary: #00f0ff;
+    --secondary: #a855f7;
+}
+```
+
+### Update Content
+Edit `js/data.js` to change projects, skills, timeline etc.
+
+---
+
+## 📄 License
+
+MIT © [Moe Kyaw Aung](https://github.com/Dev-moe-kyawaung)
+
+**Made with ⚛️ & ❤️ by Moe Kyaw Aung**
